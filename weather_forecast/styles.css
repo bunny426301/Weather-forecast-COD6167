@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('back1.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent background color to make content more readable */
+    padding: 20px; /* Adding padding to container */
+    border-radius: 10px; /* Adding border radius for rounded corners */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
